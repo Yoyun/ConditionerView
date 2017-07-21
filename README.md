@@ -16,10 +16,9 @@ dependencies {
 layout file:
 ```xml
 <com.yoyun.conditionerview.ConditionerView
-    android:id="@+id/condView1"
+    android:id="@+id/conditionerView"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_weight="1"
+    android:layout_height="260dp"
     app:bgColor="@color/cv_bgColor"
     app:layer1Color="@color/cv_layer1Color"
     app:layer2Color="@color/cv_layer2Color"
