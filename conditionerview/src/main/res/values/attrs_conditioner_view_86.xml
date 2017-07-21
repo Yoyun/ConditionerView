@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="ConditionerView">
+        <attr name="bgColor" format="color"/>
+        <attr name="layer1Color" format="color"/>
+        <attr name="layer2Color" format="color"/>
+        <attr name="layer3Color" format="color"/>
+        <attr name="numberColor" format="color"/>
+        <attr name="max" format="float"/>
+        <attr name="progress" format="float"/>
+    </declare-styleable>
+</resources>

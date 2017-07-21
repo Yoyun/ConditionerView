@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.yoyun.conditionerexample.MainActivity">
+
+    <com.yoyun.conditionerview.ConditionerView
+        android:id="@+id/condView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layer3Color="@android:color/holo_red_light"
+        app:max="10"
+        app:progress="5"/>
+
+    <com.yoyun.conditionerview.ConditionerView
+        android:id="@+id/condView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layer3Color="@android:color/holo_blue_light"
+        app:max="100"
+        app:progress="50"/>
+
+</LinearLayout>
