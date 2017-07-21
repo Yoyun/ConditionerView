@@ -2,15 +2,15 @@
 
 
 ### Screenshots
-<p align="center">
-    <img src="D:\MProjects\Android\ConditionerView\screenshots\device-2017-07-22-001408.png">
-</p>
+![Screenshots](screenshots/device-2017-07-22-001408.png)
 
 ### Usage
 
-Add dependencies to the project build.gradle file: 
-```groovy
-compile 'com.yoyun.conditionerview:conditionerview:1.0.0'
+Add the following dependency to your ``build.gradle` file:: 
+```
+dependencies {
+    compile 'com.yoyun.conditionerview:conditionerview:1.0.0'
+}
 ```
 
 layout file:
