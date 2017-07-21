@@ -2,8 +2,33 @@
 
 
 ### Screenshots
+<p align="center">
+    <img src="D:\MProjects\Android\ConditionerView\screenshots\device-2017-07-22-001408.png">
+</p>
 
 ### Usage
+
+Add dependencies to the project build.gradle file: 
+```groovy
+compile 'com.yoyun.conditionerview:conditionerview:1.0.0'
+```
+
+layout file:
+```xml
+<com.yoyun.conditionerview.ConditionerView
+    android:id="@+id/condView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    app:bgColor="@color/cv_bgColor"
+    app:layer1Color="@color/cv_layer1Color"
+    app:layer2Color="@color/cv_layer2Color"
+    app:layer3Color="@color/cv_layer3Color"
+    app:numberColor="@color/cv_numberColor"
+    app:max="10"
+    app:progress="5"/>
+
+```
 
 ### License
 

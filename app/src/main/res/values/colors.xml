@@ -4,4 +4,10 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colordAccent">#E6232222</color>
+
+    <color name="cv_bgColor">#2e2e2e"</color>
+    <color name="cv_layer1Color">#181818"</color>
+    <color name="cv_layer2Color">#232222"</color>
+    <color name="cv_layer3Color">#3d8eb4"</color>
+    <color name="cv_numberColor">#aaaaaa"</color>
 </resources>

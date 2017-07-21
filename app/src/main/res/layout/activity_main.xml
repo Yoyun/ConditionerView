@@ -14,7 +14,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        app:layer3Color="@android:color/holo_red_light"
+        app:bgColor="@color/cv_bgColor"
+        app:layer1Color="@color/cv_layer1Color"
+        app:layer2Color="@color/cv_layer2Color"
+        app:layer3Color="@color/cv_layer3Color"
+        app:numberColor="@color/cv_numberColor"
         app:max="10"
         app:progress="5"/>
 
